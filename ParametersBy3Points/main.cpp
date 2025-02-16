@@ -163,7 +163,7 @@ int main( int argc, char* argv[] )
       
 	  /////////////////////Plot poitns and deformation parameters//////////////////////
 
- 	  colorImg drawParameters(colorImg, xtop_f, ytop_f, xmid_f, ymid_f, xroot_f, yroot, center_x, center_y, radius, kappa, l_fil, factor) {
+ 	  colorImg drawParameters(colorImg, xtop_f, ytop_f, xmid_f, ymid_f, xroot_f, yroot, center_x, center_y, radius, kappa, l_fil, factor)
 	  cv::imshow("raduis",colorImg);   
 	  std::cout<<l_fil<<"\t"<<kappa<<"\n";
 	  
