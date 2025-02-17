@@ -23,7 +23,7 @@ Click on the image to watch the video
 
 
 ## Installing software and dependencies
- - [Phidget Libraries](https://www.phidgets.com/docs/OS_-_Windows)
+ - [Phidget Libraries](https://www.phidgets.com/docs/OS_-_Windows), Start with [Phidget](https://www.phidgets.com/docs/Phidget_Programming_Basics)
  - [OpenCV Instalation](https://docs.opencv.org/4.x/df/d65/tutorial_table_of_content_introduction.html)
  - [Realsense D435 SDK](https://www.intelrealsense.com/sdk-2/)
 
