@@ -6,10 +6,10 @@
 
 </div>
 
-In this repo you will C++ programs to drive proportional valves to actuate a soft robot and to estimate its deformation parameters. 
- - The complete setup is composed of a [soft robot](https://www.youtube.com/watch?v=eaKgIXw65vs) (manufactured by me), a camera sensor [Realsense D435](https://www.intelrealsense.com/depth-camera-d435/), a [Phidget 1002](https://www.phidgets.com/?prodid=1018#Using_Your_Own_Program) module (a device to command analog output signals) and a set of three [proportional valves](https://www.festo.com/tw/en/a/557776/).
- - Deformation parameters are robot arc length and curvature.
- - After an image processing using OpenCV libraries, deformation parameters are computed using [three points](https://github.com/SDyChristian/DeformationParameters_Project/tree/main/ParametersBy3Points) over robot's backbone or using [polynomials](https://github.com/SDyChristian/DeformationParameters_Project/tree/main/ParametersByPolynomials). 
+This repository contains C++ programs designed to control proportional valves for actuating a soft robot and estimating its deformation parameters.
+ - The complete setup includes a [soft robot](https://www.youtube.com/watch?v=eaKgIXw65vs) (manufactured by me), a [Realsense D435](https://www.intelrealsense.com/depth-camera-d435/) camera sensor, a [Phidget 1002](https://www.phidgets.com/?prodid=1018#Using_Your_Own_Program) module (used to control analog output signals), and a set of three [proportional valves](https://www.festo.com/tw/en/a/557776/) to drive soft robot.
+ - The deformation parameters of the robot, including arc length and curvature, are calculated after image processing with OpenCV libraries.
+ - The deformation is estimated using [three key points](https://github.com/SDyChristian/DeformationParameters_Project/tree/main/ParametersBy3Points) along the robot's backbone or by applying [polynomials](https://github.com/SDyChristian/DeformationParameters_Project/tree/main/ParametersByPolynomials) models.
 
 <div align="center">
 
