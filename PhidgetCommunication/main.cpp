@@ -94,7 +94,7 @@ void *analogue( void *ptr ) {
 								  CPhidgetAnalog_setEnabled(analog, 2, PTRUE);
 								}
 								else{
-									// Offset done due to robot imperfections
+									// Offset applied because of robot imperfections
 								  CPhidgetAnalog_setVoltage(analog, 0, j);
 								  CPhidgetAnalog_setEnabled(analog, 0, PTRUE);
 								  CPhidgetAnalog_setVoltage(analog, 1, output-6);
